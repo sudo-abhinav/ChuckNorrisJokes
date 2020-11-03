@@ -1,0 +1,77 @@
+* {
+  background: #53e0bc;
+}
+
+.design {
+  /* margin-top: 200px; */
+  /* justify-content: center !important; */
+  /* align-items: center !important; */
+  text-align: center !important;
+}
+
+.text {
+  margin-left: 50%;
+  margin-right: 50%;
+  padding-top: 114px;
+  /* margin-top: 0; */
+  text-align: center !important;
+  font-size: 1.7rem !important;
+  /* font-family: "Luckiest Guy", cursive; */
+}
+
+.font {
+  /* font-family: "Luckiest Guy", cursive; */
+  font-family: "Turret Road", cursive;
+  margin-bottom: 0px;
+  padding-top: 40px;
+}
+
+/* .textarea.form-control {
+  /* height: auto; 
+  padding: 20px 120px 20px 260px !important ;
+} */
+.btn {
+  margin-top: 60px !important;
+}
+
+/* .social { */
+/* height: 50px;
+  width: 50px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #e6ae06, #ffcf07);
+  box-shadow: 4px 4px 8px #d9a406,
+    -4px -4px 8px #ffde08; */
+/* } */
+
+.social img {
+  height: 30px;
+  width: 30px;
+  /* align-self: flex-end; */
+  float: right;
+  margin: 200px 50px 20px 100px;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #e6ae06, #ffcf07);
+  box-shadow: 4px 4px 8px #d9a406,
+    -4px -4px 8px #ffde08;
+}
+
+@media screen and (max-width: 425px) {
+  .font {
+    font-family: "Turret Road", cursive;
+    font-size: 25px;
+  }
+
+  .social img {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin: 82px 25px 4px 100px;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #e6ae06, #ffcf07);
+    box-shadow: 4px 4px 8px #d9a406,
+      -4px -4px 8px #ffde08;
+  }
+}
